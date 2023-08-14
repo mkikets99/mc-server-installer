@@ -8,7 +8,7 @@ COLOR_NULL="\e[0m"
 LIGHT_BLUE="\e[1;34m"
 PURPLE="\e[0;35m"
 CYAN="\e[0;36m"
-VERSION=$(curl -L https://raw.githubusercontent.com/samupro-dev/mc-server-installer/main/src/version.sh)
+VERSION=$(curl -L https://raw.githubusercontent.com/mkikets99/mc-server-installer/main/src/version.sh)
 
 clear
 echo -e "\n"
@@ -21,7 +21,7 @@ echo -e "${PURPLE}  ██████  ▄▄▄       ███▄ ▄██�
 ░ ░▒  ░ ░  ▒   ▒▒ ░░  ░      ░░░▒░ ░ ░ ░▒ ░       ░▒ ░ ▒░  ░ ▒ ▒░ 
 ░  ░  ░    ░   ▒   ░      ░    ░░░ ░ ░ ░░         ░░   ░ ░ ░ ░ ▒  
       ░        ░  ░       ░      ░                 ░         ░ ░  
-                https://github.com/samupro-dev
+                https://github.com/mkikets99
                                                   v${VERSION}${COLOR_NULL}"
 echo -e "\n"
 echo -e "${LIGHT_BLUE} This script makes it easy to install a minecraft server. ${COLOR_NULL}"
@@ -93,27 +93,27 @@ sleep 1
 
 ## Options ##
 function bungee {
-  bash <(wget -O - 'https://raw.githubusercontent.com/samupro-dev/mc-server-installer/main/src/bungee.sh')
+  bash <(wget -O - 'https://raw.githubusercontent.com/mkikets99/mc-server-installer/main/src/bungee.sh')
   exit
 }
 
 function spigot {
-  bash <(wget -O - 'https://raw.githubusercontent.com/samupro-dev/mc-server-installer/main/src/spigot.sh')
+  bash <(wget -O - 'https://raw.githubusercontent.com/mkikets99/mc-server-installer/main/src/spigot.sh')
   exit
 }
 
 function bedrock {
-  bash <(wget -O - 'https://raw.githubusercontent.com/samupro-dev/mc-server-installer/main/src/bedrock.sh')
+  bash <(wget -O - 'https://raw.githubusercontent.com/mkikets99/mc-server-installer/main/src/bedrock.sh')
   exit
 }
 
 function modded {
-  bash <(wget -O - 'https://raw.githubusercontent.com/samupro-dev/mc-server-installer/main/src/modded.sh')
+  bash <(wget -O - 'https://raw.githubusercontent.com/mkikets99/mc-server-installer/main/src/modded.sh')
   exit
 }
 
 function vanilla {
-  bash <(wget -O - 'https://raw.githubusercontent.com/samupro-dev/mc-server-installer/main/src/vanilla.sh')
+  bash <(wget -O - 'https://raw.githubusercontent.com/mkikets99/mc-server-installer/main/src/vanilla.sh')
   exit
 }
 
